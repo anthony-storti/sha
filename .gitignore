@@ -1,0 +1,5 @@
+*.o
+*.exe
+*.ext
+*.out
+.vscode

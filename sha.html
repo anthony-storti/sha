@@ -1,0 +1,30 @@
+
+<!--	Author: Anthony Storti
+		Date:	October 24th 2020
+		File:sha.html
+		Purpose:Prompt user to supply HASH code to be submitted to sha.php for processing
+
+-->
+
+
+<html>
+<head>
+	<title>Hash Finder</title>
+</head>
+<body>
+	<h1>Enter HASHED Password</h1>
+	<form action = "sha.php" method = "post" >
+
+		<p>Please enter hashed password:
+			<input type = "text" size = "70" name = "data">
+		</p>
+		<label for="songs">Select Dictionary:</label>
+            <select name="dictionary" id="Dictionary">
+                <option value="1">SHA 1</option>
+                <option value="224">SHA 224</option>
+                <option value="256">SHA 256</option>
+            </select>
+		<p><input type = "submit" value = "Get Results">
+		</form>
+</body>
+</html>
